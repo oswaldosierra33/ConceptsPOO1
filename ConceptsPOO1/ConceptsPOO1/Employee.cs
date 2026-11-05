@@ -6,7 +6,7 @@ using System.Text;
 
 namespace ConceptsPOO1
 {
-    public abstract class Employee
+    public abstract class Employee : Ipay
     {
         public int id { get; set; }
 
@@ -24,7 +24,7 @@ namespace ConceptsPOO1
 
         public override string ToString()
         {
-            return $"Id: {id}, Name: {FirstName} {LastName}," +
+            return $"{id}, {FirstName} {LastName}," +
                 $" Birth: {BirthDate}," +
                 $" Hiring: {HiringDate}, " +
                 $"Is Active: {IsActive}";
