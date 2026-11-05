@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Elementos de la solución/">
+    <File Path="XMLSchema1.xsd" />
+  </Folder>
   <Project Path="ConceptsPOO1/ConceptsPOO1.csproj" />
 </Solution>
